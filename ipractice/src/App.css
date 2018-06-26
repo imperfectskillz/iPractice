@@ -37,7 +37,7 @@ body {
   font-weight: 100;
 }
 
-.stopwatch-lap strong::before { content: 'Lap ' }
+.stopwatch-lap strong::before { content: 'Notes' }
 
 .btn {
   font-family: inherit;
@@ -52,7 +52,7 @@ body {
 
   cursor: pointer;
   letter-spacing: 1px;
-  
+
   border: 0;
   border-radius: 50%;
   outline: none;
@@ -60,5 +60,41 @@ body {
 }
 
 
-.start-btn { color: #4bd761 }
-.stop-btn  { color: #fd3d2a }
+.start-btn {
+  font-family: inherit;
+  font-size: 20px;
+
+  display: inline-block;
+
+  width: 72px;
+  height: 72px;
+  margin: 24px;
+  padding: 0;
+
+  cursor: pointer;
+  letter-spacing: 1px;
+
+  border: 0;
+  border-radius: 50%;
+  outline: none;
+  background: white;
+  color: #4bd761; }
+.stop-btn  {
+  font-family: inherit;
+  font-size: 20px;
+
+  display: inline-block;
+
+  width: 72px;
+  height: 72px;
+  margin: 24px;
+  padding: 0;
+
+  cursor: pointer;
+  letter-spacing: 1px;
+
+  border: 0;
+  border-radius: 50%;
+  outline: none;
+  background: white;
+  color: #fd3d2a; }
